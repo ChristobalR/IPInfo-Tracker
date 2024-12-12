@@ -1,8 +1,19 @@
-# React + Vite
+# ¿Cuál es mi IP?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación en React que muestra información sobre la IP pública, ubicación aproximada y datos del dispositivo del usuario, presentada en un diseño responsivo con Material-UI.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Obtención de la IP pública y hostname del usuario.
+- Información de geolocalización aproximada: ciudad, región, país, código postal, etc.
+- Detalles del dispositivo, como agente de usuario, plataforma, idioma, orientación y profundidad de color.
+- Dimensiones de pantalla y ventana del navegador.
+- Animación sutil en el título utilizando `keyframes` de Material-UI.
+
+## Tecnologías Utilizadas
+
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Material-UI**: Framework de componentes para diseño moderno y responsivo.
+- **Fetch API**: Para realizar solicitudes HTTP.
+- **Keyframes (MUI System)**: Para implementar animaciones personalizadas.
+
