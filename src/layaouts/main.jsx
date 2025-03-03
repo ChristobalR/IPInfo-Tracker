@@ -40,7 +40,7 @@ function Main() {
         const timestamp = new Date().toISOString();
 
         // Solicitud POST para obtener información de la IP
-        const response = await fetch("https://apichris.vercel.app/web", {
+        const response = await fetch("http://localhost:3000/web", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
