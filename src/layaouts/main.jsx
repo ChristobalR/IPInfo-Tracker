@@ -251,7 +251,7 @@ const IPDashboard = () => {
               textShadow: darkMode ? "0 0 10px rgba(50, 205, 50, 0.5)" : "none",
             }}
           >
-            IP Info Dashboard
+            EJEMPLO PRACTICO IP DASHBOARD 
           </Typography>
 
           <Box sx={{ display: "flex", gap: 1 }}>
