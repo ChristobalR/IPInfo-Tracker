@@ -451,7 +451,7 @@ const IPDashboard = () => {
                           }}
                         >
                           <Typography variant="caption" sx={{ color: theme.text, fontSize: "0.6rem" }}>
-                            Ventana
+                           
                           </Typography>
                         </Box>
                       </Box>
